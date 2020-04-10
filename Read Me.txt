@@ -1,0 +1,8 @@
+Created by Camille Monis.
+A Landing page with alternate feature blocks from frontendmentor.io
+
+Twitter: twitter.com/camsmns
+GitHub: https://github.com/camsmy
+Frontendmentor: https://www.frontendmentor.io/profile/camsmy
+codepen: https://codepen.io/camsmns
+LinkedIn: https://www.linkedin.com/in/camillemonis/
