@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,600&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+img {
+    max-width: 100%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    font-weight: 700;
+    font-size: 19px;
+}
+
+button:hover {
+    transform: scale(1.2);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+header {
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: hsl(193, 100%, 96%);
+    padding: 50px 0;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 0px 100px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+nav button {
+    padding: 10px 50px;
+    background-color: #ffffff;
+}
+
+.scndry {
+    background-color: hsl(322, 100%, 66%);
+    padding: 20px 80px;
+    color: #ffffff;
+}
+
+.flex>div {
+    flex: 1;
+}
+
+.flex h1 {
+    font-size: 2.5em;
+}
+
+.flex .head-main {
+    margin: 60px 50px;
+}
+
+.flex .head-main h1 {
+    margin-bottom: 20px;
+}
+
+.flex .head-main p {
+    margin-bottom: 40px;
+}
+
+main {
+    margin: 100px 0px;
+}
+
+.feature {
+    border-radius: 15px;
+    margin: 50px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.15);
+    padding: 50px 100px;
+    background-color: #ffffff;
+}
+
+.feature img {
+    width: 80%;
+    margin: 20px;
+}
+
+.feature p {
+    opacity: 0.7;
+}
+
+.feature h1 {
+    font-size: 2.5em;
+}
+
+.card {
+    display: inline-block;
+    margin-bottom: -50%;
+    z-index: 1;
+}
+
+.card h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.center {
+    text-align: center;
+}
+
+.footer-main {
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    text-decoration: none;
+    padding: 180px 0 60px;
+}
+
+.column {
+    list-style-type: none;
+    display: flex;
+}
+
+.footer-main ul {
+    list-style-type: none;
+
+}
+
+.footer-main li {
+    margin-bottom: 15px;
+}
+
+.copyright p {
+    text-align: right;
+}
+
+.footer-main p {
+    justify-content: right;
+}
+
+.align {
+    align-items: flex;
+}
+
+.social-links {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    border: 1.5px solid #ffffff;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 5px;
+}
+
+.social-links li:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+.icon {
+    margin-right: 1rem;
+}
+
+ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.attribution,
+.attribution a {
+    background-color: hsl(192, 100%, 9%);
+    color: #ffffff;
+    font-size: 1em;
+}
+
+@media screen and (max-width:768px) {
+    .container {
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    nav button {
+        padding: 8px 30px;
+        background-color: #ffffff;
+        font-size: 15px;
+    }
+
+    nav {
+        flex-direction: row !important;
+    }
+
+    .logo {
+        width: 150px;
+    }
+
+    .head-main h1 {
+        font-size: 31px;
+        font-weight: 600;
+    }
+
+    .head-main p {
+        font-size: 19px;
+    }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .scndry {
+        padding: 15px 60px;
+        font-size: 15px;
+    }
+
+    .feature {
+        padding: 30px;
+    }
+
+    .feature p {
+        font-size: 1em;
+    }
+
+    .feature h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .reverse {
+        flex-direction: column-reverse;
+    }
+
+    .card {
+        padding: 60px 20px;
+    }
+
+    .card h1 {
+        font-size: 1.3em;
+    }
+
+    .footer-main {
+        text-align: left;
+        left: 0;
+
+    }
+    .copyright p {
+        margin-top: 20px;
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+}
